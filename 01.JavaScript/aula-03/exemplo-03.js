@@ -7,6 +7,6 @@ function Pessoa(nome) {
 var renan = new Pessoa('renan');
 console.log(renan);
 
-var jose = {};
+let jose = {};
 Pessoa.call(jose, 'jose');
 console.log(jose);
